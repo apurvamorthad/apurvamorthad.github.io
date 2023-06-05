@@ -14,6 +14,6 @@ var mychildpic = function(){
     }
     document.getElementById("myImage").src=displayuser.image;
     document.getElementById("myname").src=displayuser.name;
-    document.getElementById("myDesig").src=displayuser.desig;
+    document.getElementById("mydesig").src=displayuser.desig;
     
 }
