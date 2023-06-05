@@ -1,19 +1,18 @@
-
-var user1 = {image : "childpic.jpg", name : "M Apurva", Designation = "student"};
-var user2 = {image : "recentimage.jpeg", name : "Appu", Designation = "student"};
-var isuser1 = true;
-var displayuser;
-var mychildpic = function(){
-    if(isuser1){
-        displayuser = user2;
-        isuser1 = false;
+var data1 = {image : "recentimage.jpeg",name : "M.Apurva" , designation: "Student"};
+var data2 = {image : "childpic.jpg",name : "Appu" , designation: "student"};
+var isdata1 = true;
+var displaydata;
+var changemypic = function(){
+    if(isdata1){
+        displaydata = data2;
+        isdata1=false;
     }
     else{
-        displayuser = user1;
-        isuser1 = true;
+        displaydata = data1;
+        isdata1 = true;
     }
-    document.getElementById("myimage").src=displayuser.image;
-    document.getElementById("myname").src=displayuser.name;
-    document.getElementById("mydesig").src=displayuser.designation;
-    
+    document.getElementById("myimage").src=displaydata.image;
+    document.getElementById("name2").innerHTML=displaydata.name;
+    document.getElementById("designation2").innerHTML=displaydata.designation;
+
 }
