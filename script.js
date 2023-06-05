@@ -12,8 +12,8 @@ var mychildpic = function(){
         displayuser = user1;
         isuser1 = true;
     }
-    document.getElementById("myImage").src=displayuser.image;
+    document.getElementById("myimage").src=displayuser.image;
     document.getElementById("myname").src=displayuser.name;
-    document.getElementById("mydesig").src=displayuser.desig;
+    document.getElementById("mydesig").src=displayuser.designation;
     
 }
