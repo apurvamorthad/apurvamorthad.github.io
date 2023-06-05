@@ -1,6 +1,6 @@
 
-var user1 = {image : "childpic.jpg",name : "M Apurva",Designation = "student"};
-var user2 = {image : "recentimage.jpeg",name : "Appu",Designation = "student"};
+var user1 = {image : "childpic.jpg", name : "M Apurva", Designation = "student"};
+var user2 = {image : "recentimage.jpeg", name : "Appu", Designation = "student"};
 var isuser1 = true;
 var displayuser;
 var mychildpic = function(){
